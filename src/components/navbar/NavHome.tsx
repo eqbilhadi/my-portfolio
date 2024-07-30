@@ -2,7 +2,7 @@
 
 import useIsomorphicLayoutEffect from "@/hooks/UseIsomorphicLayoutEffect";
 import gsap from "gsap";
-import Link from "next/l          `ink";
+import Link from "next/link";
 import { useRef } from "react";
 
 export default function NavHome() {
