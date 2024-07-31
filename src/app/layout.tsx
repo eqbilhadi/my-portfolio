@@ -3,6 +3,7 @@ import { Work_Sans } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/providers/ThemeProvider";
 import { SmoothScrollProvider } from "@/components/providers/SmoothScrollProvider";
+import { cn } from "@/lib/utils";
 
 const font = Work_Sans({ subsets: ["latin"] });
 
@@ -18,14 +19,17 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={font.className}>
+      <body className={cn(
+          "bg-zinc-50 text-zinc-800 antialiased dark:bg-neutral-900 dark:text-zinc-50",
+          font.className
+        )}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
           enableSystem
           storageKey="theme-mode"
         >
-          <SmoothScrollProvider
+          {/* <SmoothScrollProvider
             options={{
               smooth: true,
               mobile: {
@@ -36,8 +40,8 @@ export default function RootLayout({
               },
             }}
           >
-            {children}
-          </SmoothScrollProvider>
+          </SmoothScrollProvider> */}
+          {children}
         </ThemeProvider>
       </body>
     </html>
