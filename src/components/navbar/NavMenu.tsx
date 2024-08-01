@@ -137,7 +137,7 @@ export default function NavMenu() {
                 active={active}
                 classes="pr-6"
                 duration={1}
-                link="https://github.com/aafrzl"
+                link="https://github.com/eqbilhadi"
               />
             </MagneticEffect>
             <MagneticEffect>
@@ -146,7 +146,7 @@ export default function NavMenu() {
                 active={active}
                 classes="pr-6"
                 duration={1.2}
-                link="https://www.linkedin.com/in/afrizal-mufriz-fouji-8a930111b/"
+                link="https://www.linkedin.com/in/eqbilhadi/"
               />
             </MagneticEffect>
             <MagneticEffect>
@@ -155,16 +155,7 @@ export default function NavMenu() {
                 active={active}
                 classes="pr-6"
                 duration={1.4}
-                link="https://instagram.com/aafrzl_"
-              />
-            </MagneticEffect>
-            <MagneticEffect>
-              <NavMenuSocial
-                title="Tiktok"
-                active={active}
-                classes="pr-6"
-                duration={1.6}
-                link="https://tiktok.com/@aafrzl.code"
+                link="https://instagram.com/eqblhd"
               />
             </MagneticEffect>
             <MagneticEffect>
@@ -173,7 +164,7 @@ export default function NavMenu() {
                 active={active}
                 classes="pr-6"
                 duration={1.8}
-                link="mailto:afrizal.mufriz25@gmail.com"
+                link="mailto:muhamadeqtada@gmail.com"
               />
             </MagneticEffect>
           </div>
